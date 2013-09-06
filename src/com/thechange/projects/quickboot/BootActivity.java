@@ -36,6 +36,7 @@ public class BootActivity extends Activity implements OnClickListener {
 			break;
 		case R.id.reboot_recovery:
 			command = Command.reboot_recovery;
+			break;
 		case R.id.reboot_bootloader:
 			command = Command.reboot_bootloader;
 			break;
